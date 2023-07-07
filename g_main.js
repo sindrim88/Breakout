@@ -53,7 +53,7 @@ g_main._iterCore = function (dt) {
     }
     
     gatherInputs();
-    // update(dt);
+    update(dt);
     render(g_ctx);
 };
 
